@@ -1,0 +1,18 @@
+// Variável 1: número (idade)
+let idade = 20;
+
+// Variável 2: string (nome)
+let nome = "Ana";
+
+// Operador aritmético: somar 1 na idade para representar "próximo ano"
+let idadeAnoQueVem = idade + 1;
+
+// Estrutura condicional com operador lógico &&
+// Verifica se a pessoa tem mais de 18 anos e se o nome não é vazio
+if (idade >= 18 && nome !== "") {
+  console.log(nome + " é maior de idade e terá " + idadeAnoQueVem + " anos no próximo ano.");
+} else if (idade < 18 && nome !== "") {
+  console.log(nome + " é menor de idade e terá " + idadeAnoQueVem + " anos no próximo ano.");
+} else {
+  console.log("Dados inválidos.");
+}
